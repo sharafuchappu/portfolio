@@ -1,0 +1,78 @@
+body{
+    background-image: url(/image/12345.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 3px rgb(3, 2, 2);
+}
+h1{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+li{
+    font-size: 20px;
+}
+.a{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    animation-name: a_9;
+    animation-duration: 4s;
+    line-height: 28px;
+    width: 95%;
+    padding-left: 20px;
+    background-image: url(/image/12345.jpg);
+    box-shadow: 2px 2px 10px white;
+    z-index: -1;
+}
+@keyframes a_9{
+0%{
+  top: -300px;
+}
+100%{
+  top: 20px;
+}
+}
+.b{
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    line-height: 28px;
+    width: 95%;
+    height: 1040px;
+    padding-left: 20px;
+    background-image: url(/image/12345.jpg);
+    box-shadow: 2px 2px 10px white;
+    animation-name: a_10;
+    animation-duration: 4s;
+    z-index: -1;
+}
+@keyframes a_10{
+0%{
+  top: 600px;
+}
+100%{
+  top: 390px;
+}
+}
+.c{
+    width: 600px;
+    height: 700px;
+    right: 0px;
+    position: absolute;
+    background-image: url(/image/web-removebg-preview.png);
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.3;
+    animation-name: a_16;
+    animation-duration: 7s;
+}
+@keyframes a_16{
+  0%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,213 @@
+body{
+    background-image: url(/image/12345.jpg);
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white; 
+}
+.a{
+  width: 600px;
+  height: 640px;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background-image: url(/image/web-removebg-preview.png);
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.3;
+  animation-name: a_16;
+  animation-duration: 7s;
+}
+@keyframes a_16{
+  0%{
+    opacity: 0.9;
+  }
+  100%{
+    opacity: 0.3;
+  }
+}
+
+.frame1{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  perspective: 500px;
+
+}
+.shape1{
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease 0s;
+}
+.shape1:hover{
+  transform: translateY(-10px);
+}
+.button1{
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/facebook.jpg);
+  background-size: cover;
+  cursor: pointer;
+  animation-name: a_19;
+  animation-duration: 6s;
+  border-radius: 15px;
+}
+@keyframes a_19{
+  0%{
+    transform: rotateY(60deg);
+    transition: all 4s ease;
+  }
+}
+
+
+.frame2{
+  width: 200px;
+  height: 200px; 
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  perspective: 500px;
+}
+.shape2{
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease 0s;
+}
+.shape2:hover{
+  transform: translateY(-10px);
+}
+.button2{
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/instagram.jpg);
+  background-size: cover;
+  cursor: pointer;
+  animation-name: a_18;
+  animation-duration: 6s;
+  border-radius: 15px;
+}
+@keyframes a_18{
+  0%{
+    transform: rotateY(60deg);
+    transition: all 4s ease;
+  }
+}
+
+
+.frame3{
+  width: 200px;
+  height: 200px; 
+  position: absolute;
+  left: 550px;
+  top: 50px;
+  perspective: 500px;
+}
+.shape3{
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease 0s;
+}
+.shape3:hover{
+  transform: translateY(-10px);
+}
+.button3{
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/google.jpg);
+  background-size: 100%;
+  cursor: pointer;
+  animation-name: a_17;
+  animation-duration: 6s;
+  border-radius: 15px;
+}
+@keyframes a_17{
+  0%{
+    transform: rotateY(60deg);
+    transition: all 4s ease;
+  }
+}
+
+
+.frame4{
+  width: 200px;
+  height: 200px; 
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  perspective: 500px;
+}
+.shape4{
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease 0s;
+}
+.shape4:hover{
+  transform: translateY(-10px);
+}
+.button4{
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/signup.png);
+  background-size: 100%;
+  cursor: pointer;
+  animation-name: a_18;
+  animation-duration: 6s;
+  border-radius: 15px;
+}
+@keyframes a_18{
+  0%{
+    transform: rotateY(60deg);
+    transition: all 4s ease;
+  }
+}
+.frame5{
+  width: 200px;
+  height: 200px; 
+  position: absolute;
+  left: 300px;
+  top: 350px;
+  perspective: 500px;
+}
+.shape5{
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease 0s;
+}
+.shape5:hover{
+  transform: translateY(-10px);
+}
+.button5{
+  width: 200px;
+  height: 200px;
+  background-image: url(/image/gmail123.jpg);
+  background-size: 100%;
+  cursor: pointer;
+  animation-name: a_19;
+  animation-duration: 6s;
+  border-radius: 15px;
+}
+@keyframes a_19{
+  0%{
+    transform: rotateY(60deg);
+    transition: all 4s ease;
+  }
+}
+a{
+  text-decoration: none;
+}
+
+.a1{
+  width: 80px;
+  height: 50px;
+  margin-top: 250px;
+  margin-left: 100px;
+  border: none;
+  box-shadow: 2px 2px 3px grey;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease 0s;
+}
+.a1:hover{
+  transform: translateY(5px);
+}
