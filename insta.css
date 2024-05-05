@@ -1,0 +1,673 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+  .insta{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px; 
+    position: fixed;
+  
+  }
+  .first{
+    height: 630px;
+    width: 230px;
+    position: fixed;
+    border-right: 1px solid rgb(209, 202, 202);
+  
+  }
+  .leftside,a{
+    list-style-type:none ;
+    text-decoration: none;
+    color: black;
+    line-height: 54px;
+    padding-left: 12px;
+    margin-top: 95px;
+    position: relative;
+  }
+  .search{
+    position: absolute;
+    top:87px;
+    left: 70px;
+    line-height: 38px;
+    cursor: pointer;
+  }
+  .second{
+    width: 650px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 240px;
+    font-size: smaller;
+    margin-left: 300px;
+  }
+  .b{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-width: 2px;
+  }
+  #b1{
+    background-image: url(/image/a.jpg);
+  }
+  #b2{
+    background-image: url(/image/2.jpg);
+  }
+  #b3{
+    background-image: url(/image/3.JPG);
+  }
+  #b4{
+    background-image: url(/image/4.JPG);
+  }
+  #b5{
+    background-image: url(/image/5.JPG);
+  }
+  #b6{
+    background-image: url(/image/6.JPG);
+  }
+  #b7{
+    background-image: url(/image/7.JPG);
+  }
+  #b8{
+    background-image: url(/image/8.JPG);
+  }
+  
+  .third{
+    width: 300px;
+    height:300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .q{
+    font-size: smaller;
+  }
+  .w{
+    font-size: smaller;
+  }
+  .word{
+    position: absolute;
+    margin-left: 1000px;
+    top: 100px;
+    line-height: 25px;
+    font-size: smaller;
+  }
+  .name{
+    position: absolute;
+    margin-left: 1000px;
+    top: 2px;
+    line-height: 25px;
+    font-size: smaller;
+  }
+  .end{
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    font-size: smaller;
+  }
+  .chappu{
+    position: absolute;
+    margin-left: 200px;
+    top: 40px;
+    list-style-type: none;
+    display: inline-flex;
+    font-size: smaller;
+    margin-left: 260px;
+  }
+  .l{
+    padding: 15px;
+  }
+  .third{
+    margin-left: 500px;
+    position: absolute;
+  } 
+  
+  .aaa{
+    height: 590px;
+    width: 70px;
+    position: fixed;
+    border-right: 1px solid rgb(211, 201, 201);
+  
+  }
+  .bbb,a{
+    list-style-type:none ;
+    text-decoration: none;
+    color: black;
+    line-height: 55px;
+    padding-left: 12px;
+    margin-top: 80px;
+  
+  }
+  .instaicon{
+    top: 15px;
+    position: absolute;
+    padding: 25px;
+  }
+  .aaaa{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    border-top: 1px solid black;
+  }
+  .bbbb{
+    list-style-type: none;
+    display: inline;
+  }
+  .cccc{
+    display: inline;
+    padding: 25px;
+  }
+  .dddd{
+    width: 30px;
+    height: 30px;
+  }
+  #ddddd{
+    width: 40px;
+    height: 40px;
+  }
+  .final{
+    width: 400px;
+    height: 500px;
+    top: 15px;
+    position: absolute;
+    right: 0;
+  }
+  .ba{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background-size: cover;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-width: 2px;
+    margin-left: 20px;
+  }
+  #ba2{
+    margin-left: 15px;
+    font-size: smaller;
+    font-weight: 500;
+  }
+  #ba1{
+    background-image: url(/image/1.jpg);
+  }
+  #ba3{
+    background-image: url(/image/b.JPG);
+  }
+  #ba4{
+    background-image: url(/image/c.JPG);
+  }
+  #ba5{
+    background-image: url(/image/d.JPG) ;
+  }
+  #ba6{
+    background-image: url(/image/e.JPG);
+  }
+  #ba7{
+    background-image: url(/image/f.JPG);
+  }
+  .name{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50px;
+    padding-left: 30px;
+    line-height: 18px;
+    
+  }
+  .word{
+    padding-left: 30px;
+    line-height: 22px;
+    position: absolute;
+    margin-left: 50px;
+    top: 86px;
+  }
+  .follow{
+    position: absolute;
+    margin-left: 250px;
+    top: 0px;
+    line-height: 40px;
+    font-size: smaller;
+    color: blue;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .two{
+    color: black;
+  }
+  
+  .two{
+    color: black;
+  }
+  .one:hover{
+    color: rgb(2, 43, 71);
+  }
+  .two:hover{
+    color: rgb(203, 212, 218);
+  }
+  .three:hover{
+    color: rgb(2, 43, 71);
+  }
+  .four:hover{
+    color: rgb(2, 43, 71);
+  }
+  .five:hover{
+    color: rgb(2, 43, 71);
+  }
+  .six:hover{
+    color: rgb(2, 43, 71);
+  }
+  .seven:hover{
+    color: rgb(2, 43, 71);
+  }
+  .forward{
+    position: absolute;
+    top: 27px;
+    left: 850px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+  }
+  .forward2{
+    position: absolute;
+    top: 27px;
+    left: 330px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+  }
+  .header{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    border-bottom: 1px solid black;
+    background-color: white;
+  }
+  .x{
+    width: 100px;
+    height: 40px;
+    padding: 20px;
+  }
+  .y{
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 370px;
+  }
+  .zz{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    left: 250px;
+  }
+  input{
+    background-color: rgb(236, 230, 230);
+    padding: 13px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 8px;
+  }
+  .post1{
+    width: 380px;
+    height: 565px;
+    margin-left: 400px;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    border-bottom: 1px solid black;
+  }
+  .image1{
+    width: 350px;
+    height: 400px;
+    margin-left: 23px;
+    background-image: url(/image/messi.jpg);
+    background-size: cover;
+    position: relative;
+    top: 49px;
+  }
+  .dp{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    cursor: pointer;
+    border: .5px solid red;
+  }
+  .dp1{
+    color:black;
+    left: 60px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .dots{
+    left: 355px;
+    position: absolute;
+    top: 19px;
+    cursor: pointer;
+  }
+  .dots:hover{
+    color: rgb(112, 111, 109);
+  }
+  .heart{
+    left: 25px;
+    position: absolute;
+    top: 460px;
+    cursor: pointer;
+  }
+  .heart:hover{
+    color: rgb(112, 111, 109);
+  }
+  .comment{
+    left: 52px;
+    position: absolute;
+    top: 460px;
+    cursor: pointer;
+  }
+  .comment:hover{
+    color: rgb(112, 111, 109);
+  }
+  .send{
+    left: 78px;
+    position: absolute;
+    top: 460px;
+    cursor: pointer;
+  }
+  .send:hover{
+    color: rgb(112, 111, 109);
+  }
+  .bookmark{
+    left: 358px;
+    position: absolute;
+    top: 460px;
+    cursor: pointer;
+  }
+  .bookmark:hover{
+    color: rgb(112, 111, 109);
+  }
+  .circle{
+    left: 25px;
+    position: absolute;
+    top: 490px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+  }
+  .circle:hover{
+    color: rgb(112, 111, 109);
+  }
+  .like{
+    left: 45px;
+    position: absolute;
+    top: 477px;
+    cursor: pointer;
+    font-size: smaller;
+  }
+  .view1{
+    left: 25px;
+    position: absolute;
+    top: 494px;
+    cursor: pointer;
+    font-size: smaller;
+  }
+  .view2{
+    left: 25px;
+    position: absolute;
+    top: 509px;
+    cursor: pointer;
+    font-size: smaller;
+  }
+  .view3{
+    left: 25px;
+    position: absolute;
+    top: 528px;
+    cursor: text;
+    font-size: smaller;
+  }
+  .view4{
+    top: 540px;
+    position: absolute;
+  }
+  .heart2{
+    left: 360px;
+    position: absolute;
+    top: 525px;
+    cursor: pointer;
+    font-size: smaller;
+    width: 10px;
+    height: 10px;
+  }
+  .heart2:hover{
+    color: rgb(112, 111, 109);
+  }
+  .smile{
+    left: 360px;
+    position: absolute;
+    top: 544px;
+    cursor: pointer;
+    font-size: smaller;
+    width: 10px;
+    height: 10px;
+  }
+  .smile:hover{
+    color: rgb(112, 111, 109);
+  }
+  .post2{
+    position: absolute;
+    top: 680px;
+    left: 400px;
+    height: 100%;
+    width: 600px;
+  }
+  .image2{
+    width: 350px;
+    height: 400px;
+    margin-left: 23px;
+    background-image: url(/image/cr7.JPG);
+    background-size: cover;
+    position: relative;
+    top: 49px;
+  }
+  .abc{
+    width: 303px;
+    height: 100px;
+    position: absolute;
+    top: 420px;
+    left: 930px;
+  }
+  .abcd{
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(160, 166, 171);
+    cursor: pointer;
+  }
+  .abcd123{
+    margin-left: 100px;
+    margin-top: 0;
+  }
+  .post3{
+    position: absolute;
+    top: 1280px;
+    left: 400px;
+    height: 100%;
+    width: 600px;
+  }
+  .image3{
+    width: 350px;
+    height: 400px;
+    margin-left: 23px;
+    background-image: url(/image/chappu.jpg);
+    background-size: cover;
+    position: relative;
+    top: 49px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width:1400px){
+   .aaaa{
+    display: none;
+   }
+   .aaa{
+    display: none;
+   }
+   .forward2{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  }
+  @media screen and (max-width:1300px){
+    .final{
+      display: none;
+    }
+    .abc{
+      display: none;
+    }
+    .abcd{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:900px){
+    .name{
+      display: none;
+    }
+    .follow{
+      display: none;
+    }
+    .word{
+      display: none;
+    }
+    .first{
+      display: none;
+    }
+    .insta{
+      display: none;
+    }
+    .leftside{
+      display: none;
+    }
+    .aaa{
+      display: inline-block;
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    .bbb{
+      position: fixed;
+    }
+    .second{
+      margin-left: 100px;
+    }
+    .chappu{
+      margin-left: 55px;
+    }
+    .aaaa{
+      display: none;
+    }
+    .forward{
+      margin-left: -200px;
+    }
+    .forward2{
+      display: block;
+      margin-left: -200px;
+    }
+    .post1{
+      left:-200px;
+    }
+    .post2{
+     left: 200px;
+    }
+    .post3{
+      left: 200px;
+    }
+  }
+  
+  @media screen and (max-width:700px){
+    .aaa{
+      display: none;
+    }
+    .bbb{
+      display: none;
+    }
+    .f{
+      margin-left: 110px;
+    }
+    .second{
+      margin-left: 20px;
+      top: 75px;
+    }
+    .chappu{
+      margin-left: -24px;
+      top: 110px;
+    }
+    .aaaa{
+      display: inline-block;
+      position: fixed;
+      bottom: 0;
+    }
+    .bbbb,a{
+      display: inline;
+    }
+    .forward{
+      margin-left: -280px;
+      top: 100px;
+    }
+    .forward2{
+      margin-left: -280px;
+      top: 100px;
+    }
+    .header{
+      display:inline-block;
+      position: fixed;
+      top: 0;
+    }
+    .post1{
+      left: -286px;
+      top: 90px;
+      z-index: -1;
+    }
+    .post2{
+      left: 115px;
+      top: 740px;
+      z-index: -1;
+    }
+    .post3{
+      left: 115px;
+      top: 1350px;
+      z-index: -1;
+    }
+  
+  }
+  @media screen and (max-width:600px){
+    body{
+      position: fixed;
+    }
+    .y{
+      left: 190px;
+      position: fixed;
+    }
+    .z{
+      right: 10px;
+    }
+  }
